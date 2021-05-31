@@ -72,6 +72,13 @@ using BlazorApp1.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\_Imports.razor"
+using BlazorApp1.Shared;
+
+#line default
+#line hidden
+#nullable disable
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

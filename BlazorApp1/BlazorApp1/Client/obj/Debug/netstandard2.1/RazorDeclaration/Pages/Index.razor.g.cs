@@ -75,6 +75,13 @@ using BlazorApp1.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\_Imports.razor"
+using BlazorApp1.Shared;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -83,6 +90,21 @@ using BlazorApp1.Client.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 12 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\Index.razor"
+       
+
+    List<Product> products = new List<Product>
+    {
+        new Product(1,"Prod1","Details",2.5),
+        new Product(2,"Prod2","Details",2.3),
+        new Product(3,"Prod3","Details",5.1),
+
+    };
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BlazorApp1.Shared
 {
-    class Product
+    public class Product
     {
         public Product(int id,string name,string desc,double price)
         {
@@ -18,6 +18,7 @@ namespace BlazorApp1.Shared
         public string name { get; set; }
         public string description { get; set; }
         public double price { get; set; }
+        public Shop shop { get; set; }
 
     }
 }
