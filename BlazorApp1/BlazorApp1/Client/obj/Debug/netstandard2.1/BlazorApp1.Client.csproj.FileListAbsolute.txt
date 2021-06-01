@@ -492,9 +492,6 @@ F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehm
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\ProductComponent.razor.g.cs
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\ProductDetailComponent.razor.g.cs
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\ProductDetailComponent.razor.g.cs
-F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\tYK7wHw1IdZD1LAYaF3vP2_6K2zs9AQ7tpfWXMoIGzw=.hash
-F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\3hGzm_tIOpOqoVB9sTITxsxEGrXOCFu84la3ilkxCJE=.hash
-F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\k95bOWvQyO0ATmfAVVju_OtFqpICbZ5AwodGqmp_51A=.hash
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\bin\Debug\netstandard2.1\BlazorApp1.Client.StaticWebAssets.xml
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\bin\Debug\netstandard2.1\BlazorApp1.Client.dll
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\bin\Debug\netstandard2.1\BlazorApp1.Client.pdb
@@ -992,3 +989,6 @@ C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\B9bj4QE9PvYIohem3pgcBUjYkDc9cquJnDLyIlhMK58=.hash
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\ongFxtlW7XD69qabSG5NpyF1BF4-ULlY7icAWfW4Oxg=.hash
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\klFwSohLujAQJXvUisL7UGMCeyWzcod0vJzARwTSVhw=.hash
+F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\ugWlCWq1h7M8rFTBdNEx6ax9ryFh6aZknnlwWIhKONg=.hash
+F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\bxgByyr_-uHVG4l27WaAz35-fKPzdk9EOAt5PEf6w_k=.hash
+F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\dk_BxVbR2rTxaabkwzP8zZkgtsZ-OKqYwU5lauSBUtc=.hash

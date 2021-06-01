@@ -6,7 +6,7 @@
         <h5 class="card-title">@product.name</h5>
         <p class="card-text">@product.description</p>
         <p class="card-text">@product.price</p>
-        <button @onclick="@ProductDetails" class="btn btn-primary">Details</button>
+        <button @onclick="() => ProductDetails(product.Id)" class="btn btn-primary">Details</button>
     </div>
 </div>
 
@@ -15,9 +15,9 @@
     [Parameter]
     public Product product { get; set; }
 
-    void ProductDetails()
+    void ProductDetails(int id)
     {
-        UriHelper.NavigateTo("/Product/{id:int}");
+        UriHelper.NavigateTo("/Product/"+id);
     }
 
 }
