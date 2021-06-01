@@ -1,0 +1,26 @@
+﻿@page "/Login"
+@layout EmptyLayout
+@inject NavigationManager UriHelper
+
+<div class="card text-center" style="width: 18rem; margin:auto; margin-top:100px;">
+    <img src="/Images//logo.png" height="50" width="50 " class="rounded mx-auto d-block" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Login</h5>
+        <LoginFormComponent></LoginFormComponent>
+
+
+    </div>
+
+    <button @onclick=@Register class="btn btn-dark"> Register Yourself </button>
+</div>
+
+
+
+@code {
+
+    void Register()
+    {
+        UriHelper.NavigateTo("Register");
+    }
+
+}

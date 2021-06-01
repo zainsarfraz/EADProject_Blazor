@@ -1,15 +1,52 @@
 ﻿@inherits LayoutComponentBase
+@inject NavigationManager UriHelper
 
-<div class="sidebar">
-    <NavMenu />
-</div>
+
 
 <div class="main">
-    <div class="top-row px-4">
-        <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
+    <div class="bs-example">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a href="" class="navbar-brand">
+                <img src="/Images/logo.png" height="50" width="50">
+            </a>
+            
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="" class="nav-item nav-link active">Home</a>
+
+                </div>
+                <div class="navbar-nav">
+                    <a href="/Shop" class="nav-item nav-link active">Shops</a>
+
+                </div>
+                <div class="navbar-nav">
+                    <a href="/Categories" class="nav-item nav-link active">Categories</a>
+
+                </div>
+                <div class="navbar-nav" style="margin-left:500px">
+                    <input type="text" placeholder="Search Product"/>
+                    <button class="btn btn-success">Search</button>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <button @onclick=@Navigate class="nav-item nav-link">Login</button>
+                </div>
+            </div>
+        </nav>
     </div>
 
     <div class="content px-4">
         @Body
     </div>
 </div>
+
+@code
+{
+    void Navigate()
+    {
+        UriHelper.NavigateTo("Login");
+    }
+}

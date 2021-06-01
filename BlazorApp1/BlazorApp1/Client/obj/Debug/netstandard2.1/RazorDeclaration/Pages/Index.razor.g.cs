@@ -99,6 +99,8 @@ using BlazorApp1.Shared;
         new Product(1,"Prod1","Details",2.5),
         new Product(2,"Prod2","Details",2.3),
         new Product(3,"Prod3","Details",5.1),
+        new Product(3,"Prod3","Details",5.1),
+        new Product(3,"Prod3","Details",5.1),
 
     };
 
