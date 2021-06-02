@@ -2,10 +2,12 @@
 
 <h1>Products</h1>
 
+    <FilterComponent></FilterComponent>
 <div class="row">
+    
     @foreach (var product in products)
     {
-        <ProductComponent  product=product></ProductComponent>
+        <ProductComponent product=product></ProductComponent>
     }
 </div>
 

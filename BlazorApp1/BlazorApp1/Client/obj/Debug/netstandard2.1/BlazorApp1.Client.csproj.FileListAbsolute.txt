@@ -986,9 +986,11 @@ C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\BlazorApp1.Client.csproj.CopyComplete
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\BlazorApp1.Client.dll
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\BlazorApp1.Client.pdb
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\B9bj4QE9PvYIohem3pgcBUjYkDc9cquJnDLyIlhMK58=.hash
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\ongFxtlW7XD69qabSG5NpyF1BF4-ULlY7icAWfW4Oxg=.hash
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\klFwSohLujAQJXvUisL7UGMCeyWzcod0vJzARwTSVhw=.hash
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\ugWlCWq1h7M8rFTBdNEx6ax9ryFh6aZknnlwWIhKONg=.hash
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\bxgByyr_-uHVG4l27WaAz35-fKPzdk9EOAt5PEf6w_k=.hash
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\dk_BxVbR2rTxaabkwzP8zZkgtsZ-OKqYwU5lauSBUtc=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FilterComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\FilterComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\acCe54HgORaQfAt6WvGSK4caD_9EhP3BS0aDXsH2jaA=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\HBuOfdjJQZFiz7u54r4h1UE9CzQ5wkV5Z5cx7iJqmO4=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\C4YItYlhttJB1MK9JzPpXUgcJueObKL5bD_lCgozfYc=.hash
