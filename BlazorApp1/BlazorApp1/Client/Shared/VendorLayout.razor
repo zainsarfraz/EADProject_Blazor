@@ -1,0 +1,46 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager UriHelper
+
+
+
+<div class="main">
+    <div class="bs-example">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a href="/Dashboard" class="navbar-brand">
+                <img src="/Images/logo.png" height="50" width="50">
+            </a>
+
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="/Dashboard" class="nav-item nav-link active">Home</a>
+
+                </div>
+              
+            
+                <div class="navbar-nav" style="margin-left:600px">
+                    <input type="text" placeholder="Search Product" />
+                    <button class="btn btn-success">Search</button>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <button @onclick=@Navigate class="nav-item nav-link">Logout</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
+
+@code
+{
+    void Navigate()
+    {
+        UriHelper.NavigateTo("Logout");
+    }
+}
