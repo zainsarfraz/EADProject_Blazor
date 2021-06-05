@@ -1013,6 +1013,6 @@ C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\AddProductComponent.razor.g.cs
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\EditProductComponent.razor.g.cs
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\EditProductComponent.razor.g.cs
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\3g3-t8BqQ3gu4qAvRiz3UsB0HkT2WfC-LpILOVTLuxk=.hash
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\4fr5cPI78nk4cj--4nUdzaatJwEN0dYgD8dpmSEBCwE=.hash
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\aTZ_4fc1HupT_Qd4smkfA27hZjVrISDPRVmQzEIt_MI=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\s1zX9oDP_IXObCdljPwqUuMv9uaRsnaNSp888BwAyBI=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\G6NJZP0ZwlwKQJ0ojQEe6yKNBcmrqNs83gQE1k3ZJi4=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\_YBJpNp0OuaAC8MLesxBeDGbCQXEwz4oxVPda6-s71Y=.hash

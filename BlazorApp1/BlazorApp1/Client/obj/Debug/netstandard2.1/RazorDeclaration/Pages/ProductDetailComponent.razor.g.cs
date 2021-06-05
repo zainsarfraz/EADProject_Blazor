@@ -91,12 +91,12 @@ using BlazorApp1.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 15 "C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\ProductDetailComponent.razor"
+#line 62 "C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\ProductDetailComponent.razor"
        
     [Parameter]
     public int id { get; set; }
 
-    
+
 
 #line default
 #line hidden
