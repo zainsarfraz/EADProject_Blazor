@@ -1,0 +1,89 @@
+﻿@page "/EditProduct/{id:int}"
+@layout VendorLayout
+
+
+<form class="form-horizontal">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Edit Product</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="product_id">Product ID</label>
+            <div class="col-md-4">
+                <input id="product_id" name="product_id" placeholder="Product ID" class="form-control input-md" required="" type="text">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="product_name">Product Name</label>
+            <div class="col-md-4">
+                <input id="product_name" name="product_name" placeholder="Product Name" class="form-control input-md" required="" type="text">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="product_description">Product Description</label>
+            <div class="col-md-4">
+                <input id="product_description" name="product_description" placeholder="Product Description" class="form-control input-md" required="" type="text">
+
+            </div>
+        </div>
+
+        <!-- Select Basic -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="product_category">Product Category</label>
+            <div class="col-md-4">
+                <input id="product_category" name="product_category" placeholder="Product Category" class="form-control input-md" required="" type="text"
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="price">Product Price</label>
+            <div class="col-md-4">
+                <input id="price" name="price" placeholder="Price" class="form-control input-md" required="" type="number">
+
+            </div>
+        </div>
+
+
+
+
+        <!-- File Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="filebutton">Main Image</label>
+            <div class="col-md-4">
+                <input id="filebutton" name="filebutton" class="input-file" type="file">
+            </div>
+        </div>
+        <!-- File Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="filebutton">Auxiliary Images</label>
+            <div class="col-md-4">
+                <input id="filebutton" name="filebutton" class="input-file" type="file">
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="singlebutton"></label>
+            <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Edit Item</button>
+            </div>
+
+        </div>
+
+    </fieldset>
+</form>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+}

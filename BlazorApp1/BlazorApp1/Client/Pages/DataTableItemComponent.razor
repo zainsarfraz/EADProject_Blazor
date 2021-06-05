@@ -1,21 +1,21 @@
-﻿<tr>
+﻿@inject NavigationManager UriHelper
+
+<tr>
+    <td>@product.Id</td>
     <td>@product.name</td>
-    <td>System Architect</td>
-    <td>Edinburgh</td>
-    <td>61</td>
-    <td>2011/04/25</td>
-    <td>$320,800</td>
+    <td>@product.description</td>
+    <td>@product.price</td>
     <td>
 
         <ul class='list-inline m-0'>
             <li class='list-inline-item'>
-                <button class='btn btn-primary btn-sm rounded-0' type='button' data-toggle='' data-placement='top' title='Add'><i class='la la-table'></i></button>
+                <button class='btn btn-primary btn-sm' type='button' data-toggle='' data-placement='top' title='View'>View</button>
             </li>
             <li class='list-inline-item'>
-                <button class='btn btn-success btn-sm rounded-0' type='button' data-toggle='tooltip' data-placement='top' title='Edit'><i class='la la-edit'></i></button>
+                <button @onclick="() => EditProduct(product.Id)" class='btn btn-success btn-sm' type='button' data-toggle='tooltip' data-placement='top' title='Edit'>Edit</button>
             </li>
             <li class='list-inline-item'>
-                <button class='btn btn-danger btn-sm rounded-0' type='button' data-toggle='tooltip' data-placement='top' title='Delete'><i class='la la-trash'></i></button>
+                <button class='btn btn-danger btn-sm' type='button' data-toggle='tooltip' data-placement='top' title='Delete'>Delete</button>
             </li>
         </ul>
 
@@ -26,5 +26,13 @@
     [Parameter]
     public Product product { get; set; }
 
+    [Parameter]
+    public int id { get; set; }
+
+
+    void EditProduct(int id)
+    {
+        UriHelper.NavigateTo("/EditProduct/"+id);
+    }
 
 }
