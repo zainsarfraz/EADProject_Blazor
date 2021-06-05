@@ -1,20 +1,67 @@
 ﻿@page "/Product/{id:int}"
-
 product detail @id
-<div class="card" style="width: 18rem; margin:15px;">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-        <h5 class="card-title"></h5>
-        <p class="card-text">Description</p>
-        <p class="card-text"><b>Price</b></p>
-        <p class="card-text">Shop Address</p>
-        <p class="card-text">Phone#</p>   
+<!--Section: Block Content-->
+<section class="mb-5">
+
+    <div class="row">
+        <div class="col-md-6 mb-4 mb-md-0">
+
+            <div id="mdb-lightbox-ui"></div>
+
+            <div class="mdb-lightbox">
+
+                <div class="row product-gallery mx-1">
+
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-md-6">
+
+            <h5>Fantasy T-shirt</h5>
+            <p class="mb-2 text-muted text-uppercase small">Shirts</p>
+            <p><span class="mr-1"><strong>$12.99</strong></span></p>
+            <p class="pt-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
+                error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
+                officia quis dolore quos sapiente tempore alias.
+            </p>
+            <div class="table-responsive">
+                <table class="table table-sm table-borderless mb-0">
+                    <tbody>
+                        <tr>
+                            <th class="pl-0 w-25" scope="row"><strong>Contact Number</strong></th>
+                            <td>03123456789</td>
+                        </tr>
+                        <tr>
+                            <th class="pl-0 w-25" scope="row"><strong>Shop Address</strong></th>
+                            <td>Shop# 1123 Mall Road, Lahore.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+        </div>
     </div>
-</div>
+
+</section>
+<!--Section: Block Content-->
 
 @code {
     [Parameter]
     public int id { get; set; }
 
-    
+
 }

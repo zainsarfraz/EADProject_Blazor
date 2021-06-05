@@ -494,9 +494,6 @@ C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\BlazorApp1.Client.pdb
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FilterComponent.razor.g.cs
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\FilterComponent.razor.g.cs
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\acCe54HgORaQfAt6WvGSK4caD_9EhP3BS0aDXsH2jaA=.hash
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\HBuOfdjJQZFiz7u54r4h1UE9CzQ5wkV5Z5cx7iJqmO4=.hash
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\C4YItYlhttJB1MK9JzPpXUgcJueObKL5bD_lCgozfYc=.hash
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\bin\Debug\netstandard2.1\BlazorApp1.Client.StaticWebAssets.xml
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\bin\Debug\netstandard2.1\BlazorApp1.Client.dll
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\bin\Debug\netstandard2.1\BlazorApp1.Client.pdb
@@ -1004,3 +1001,18 @@ F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehm
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\9DIxCIp2CAx4wCkAkzqONM-DlLz8gUqH7NN7huv1gU0=.hash
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\kcmlbZ_AtEuQvAYar4UohnSQg4V6848ZjUYHOTocTjQ=.hash
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\cuT_fmbl_TXRRRRcAINCycXQ5xe3s1vp9d8-zvDSfQI=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\DashboardComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\DataTableComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\DataTableItemComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\VendorLayout.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\DashboardComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\DataTableComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\DataTableItemComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Shared\VendorLayout.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\AddProductComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\AddProductComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\EditProductComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\EditProductComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\s1zX9oDP_IXObCdljPwqUuMv9uaRsnaNSp888BwAyBI=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\G6NJZP0ZwlwKQJ0ojQEe6yKNBcmrqNs83gQE1k3ZJi4=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\_YBJpNp0OuaAC8MLesxBeDGbCQXEwz4oxVPda6-s71Y=.hash
