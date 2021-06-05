@@ -2,12 +2,12 @@
 
 namespace BlazorApp1.Server.Migrations
 {
-    public partial class first : Migration
+    public partial class test : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "User",
+                name: "Vendor",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -19,7 +19,7 @@ namespace BlazorApp1.Server.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_User", x => x.Id);
+                    table.PrimaryKey("PK_Vendor", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -36,9 +36,9 @@ namespace BlazorApp1.Server.Migrations
                 {
                     table.PrimaryKey("PK_Shop", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Shop_User_VendorId",
+                        name: "FK_Shop_Vendor_VendorId",
                         column: x => x.VendorId,
-                        principalTable: "User",
+                        principalTable: "Vendor",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -66,7 +66,7 @@ namespace BlazorApp1.Server.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Order",
+                name: "Category",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -76,9 +76,9 @@ namespace BlazorApp1.Server.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Order", x => x.Id);
+                    table.PrimaryKey("PK_Category", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Order_Product_productId",
+                        name: "FK_Category_Product_productId",
                         column: x => x.productId,
                         principalTable: "Product",
                         principalColumn: "Id",
@@ -86,8 +86,8 @@ namespace BlazorApp1.Server.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Order_productId",
-                table: "Order",
+                name: "IX_Category_productId",
+                table: "Category",
                 column: "productId");
 
             migrationBuilder.CreateIndex(
@@ -104,7 +104,7 @@ namespace BlazorApp1.Server.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Order");
+                name: "Category");
 
             migrationBuilder.DropTable(
                 name: "Product");
@@ -113,7 +113,7 @@ namespace BlazorApp1.Server.Migrations
                 name: "Shop");
 
             migrationBuilder.DropTable(
-                name: "User");
+                name: "Vendor");
         }
     }
 }

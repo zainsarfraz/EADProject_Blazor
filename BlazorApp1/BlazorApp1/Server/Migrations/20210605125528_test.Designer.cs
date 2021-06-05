@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlazorApp1.Server.Migrations
 {
     [DbContext(typeof(DBContext))]
-    [Migration("20210531061104_first")]
-    partial class first
+    [Migration("20210605125528_test")]
+    partial class test
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -38,7 +38,7 @@ namespace BlazorApp1.Server.Migrations
 
                     b.HasIndex("productId");
 
-                    b.ToTable("Order");
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("BlazorApp1.Server.Models.Product", b =>
@@ -111,7 +111,7 @@ namespace BlazorApp1.Server.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("Vendor");
                 });
 
             modelBuilder.Entity("BlazorApp1.Server.Models.Category", b =>

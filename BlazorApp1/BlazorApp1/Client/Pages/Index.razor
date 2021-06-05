@@ -1,18 +1,21 @@
 ﻿@page "/"
+@inject HttpClient Http
 
 <h1>Products</h1>
 
     <FilterComponent></FilterComponent>
 <div class="row">
-    
-    @foreach (var product in products)
-    {
-        <ProductComponent product=product></ProductComponent>
-    }
+
+
+        @foreach (var product in products)
+        {
+            <ProductComponent product=product></ProductComponent>
+        }
 </div>
 
 @code {
 
+    
     List<Product> products = new List<Product>
     {
         new Product(1,"Prod1","Details",2.5),
@@ -22,4 +25,14 @@
         new Product(3,"Prod3","Details",5.1),
 
     };
+
+
+   /* public Product[] products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Http.GetFromJsonAsync<Product[]>("/api/Product");
+
+    }*/
+
 }

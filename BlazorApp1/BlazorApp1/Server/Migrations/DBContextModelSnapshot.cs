@@ -36,7 +36,7 @@ namespace BlazorApp1.Server.Migrations
 
                     b.HasIndex("productId");
 
-                    b.ToTable("Order");
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("BlazorApp1.Server.Models.Product", b =>
@@ -109,7 +109,7 @@ namespace BlazorApp1.Server.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("Vendor");
                 });
 
             modelBuilder.Entity("BlazorApp1.Server.Models.Category", b =>
