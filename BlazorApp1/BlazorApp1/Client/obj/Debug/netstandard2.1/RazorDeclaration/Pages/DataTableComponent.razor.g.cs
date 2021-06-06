@@ -90,18 +90,17 @@ using BlazorApp1.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 40 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\DataTableComponent.razor"
+#line 41 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\DataTableComponent.razor"
        
 
-    List<Product> products = new List<Product>
-{
-        new Product(1,"Prod1","Details",2.5),
-        new Product(2,"Prod2","Details",2.3),
-        new Product(3,"Prod3","Details",5.1),
-        new Product(3,"Prod3","Details",5.1),
-        new Product(3,"Prod3","Details",5.1),
 
-    };
+    public List<Product> products = new List<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Http.GetFromJsonAsync<List<Product>>("api/Product/VendorId/3");
+
+    }
 
     void AddProduct()
     {
@@ -112,6 +111,7 @@ using BlazorApp1.Shared;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager UriHelper { get; set; }
     }
 }

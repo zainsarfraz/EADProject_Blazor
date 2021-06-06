@@ -89,6 +89,30 @@ using BlazorApp1.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 63 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\FilterComponent.razor"
+       
+
+    public List<Shop> shops = new List<Shop>();
+    public List<Category> categories = new List<Category>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        shops = await Http.GetFromJsonAsync<List<Shop>>("api/Shop");
+        categories = await Http.GetFromJsonAsync<List<Category>>("api/Category");
+
+    }
+
+
+
+
+
+
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

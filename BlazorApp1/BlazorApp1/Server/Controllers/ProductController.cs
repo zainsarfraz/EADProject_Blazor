@@ -29,6 +29,12 @@ namespace BlazorApp1.Server.Controllers
         {
             return db.getProductById(id);
         }
+        [HttpGet]
+        [Route("VendorId/{id}")]
+        public List<Product> GetProductsByVendorId(int id)
+        {
+            return db.GetProductsByVendorId(id);
+        }
 
     }
 }

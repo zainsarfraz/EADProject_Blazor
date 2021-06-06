@@ -9,7 +9,7 @@
 
         <ul class='list-inline m-0'>
             <li class='list-inline-item'>
-                <button class='btn btn-primary btn-sm' type='button' data-toggle='' data-placement='top' title='View'>View</button>
+                <button @onclick="() => ProductDetails(product.Id)" class='btn btn-primary btn-sm' type='button' data-toggle='' data-placement='top' title='View'>View</button>
             </li>
             <li class='list-inline-item'>
                 <button @onclick="() => EditProduct(product.Id)" class='btn btn-success btn-sm' type='button' data-toggle='tooltip' data-placement='top' title='Edit'>Edit</button>
@@ -33,6 +33,11 @@
     void EditProduct(int id)
     {
         UriHelper.NavigateTo("/EditProduct/"+id);
+    }
+
+    void ProductDetails(int id)
+    {
+        UriHelper.NavigateTo("/Product/" + id);
     }
 
 }

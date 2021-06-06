@@ -1,4 +1,5 @@
 ﻿@inject NavigationManager UriHelper
+@inject HttpClient Http
 
 <button @onclick="() => AddProduct()" class="btn btn-primary" style="float:right">Add Item</button>
 <br />
@@ -39,15 +40,14 @@
 
 @code {
 
-    List<Product> products = new List<Product>
-{
-        new Product(1,"Prod1","Details",2.5),
-        new Product(2,"Prod2","Details",2.3),
-        new Product(3,"Prod3","Details",5.1),
-        new Product(3,"Prod3","Details",5.1),
-        new Product(3,"Prod3","Details",5.1),
 
-    };
+    public List<Product> products = new List<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Http.GetFromJsonAsync<List<Product>>("api/Product/VendorId/3");
+
+    }
 
     void AddProduct()
     {

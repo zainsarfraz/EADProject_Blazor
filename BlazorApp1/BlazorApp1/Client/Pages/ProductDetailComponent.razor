@@ -1,5 +1,7 @@
 ﻿@page "/Product/{id:int}"
-product detail @id
+@inject HttpClient Http
+
+
 <!--Section: Block Content-->
 <section class="mb-5">
 
@@ -30,24 +32,24 @@ product detail @id
         </div>
         <div class="col-md-6">
 
-            <h5>pro</h5>
-            <p class="mb-2 text-muted text-uppercase small">Shirts</p>
-            <p><span class="mr-1"><strong>$12.99</strong></span></p>
+            <h5>@product.name</h5>
+            
+                <p class="mb-2 text-muted text-uppercase small">Category Name</p>
+            
+            <p><span class="mr-1"><strong>@product.price $</strong></span></p>
             <p class="pt-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
-                error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
-                officia quis dolore quos sapiente tempore alias.
+                @product.description
             </p>
             <div class="table-responsive">
                 <table class="table table-sm table-borderless mb-0">
                     <tbody>
                         <tr>
                             <th class="pl-0 w-25" scope="row"><strong>Contact Number</strong></th>
-                            <td>03123456789</td>
+                            <td>@product.shop.vendor.contact</td>
                         </tr>
                         <tr>
                             <th class="pl-0 w-25" scope="row"><strong>Shop Address</strong></th>
-                            <td>Shop# 1123 Mall Road, Lahore.</td>
+                            <td>@product.shop.details</td>
                         </tr>
                     </tbody>
                 </table>
@@ -63,6 +65,15 @@ product detail @id
     [Parameter]
     public int id { get; set; }
 
+    public Product product = new Product();
+    public Category category = new Category();
+
+    protected override async Task OnInitializedAsync()
+    {
+        product = await Http.GetFromJsonAsync<Product>($"api/Product/{id}");
+        //category = await Http.GetFromJsonAsync<Category>($"api/Category/{id}");
+
+    }
 
 
 

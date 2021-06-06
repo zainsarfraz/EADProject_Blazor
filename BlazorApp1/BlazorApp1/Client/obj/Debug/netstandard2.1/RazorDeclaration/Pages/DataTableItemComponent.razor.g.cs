@@ -104,6 +104,11 @@ using BlazorApp1.Shared;
         UriHelper.NavigateTo("/EditProduct/"+id);
     }
 
+    void ProductDetails(int id)
+    {
+        UriHelper.NavigateTo("/Product/" + id);
+    }
+
 
 #line default
 #line hidden

@@ -91,11 +91,20 @@ using BlazorApp1.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 62 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\ProductDetailComponent.razor"
+#line 64 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\ProductDetailComponent.razor"
        
     [Parameter]
     public int id { get; set; }
 
+    public Product product = new Product();
+    public Category category = new Category();
+
+    protected override async Task OnInitializedAsync()
+    {
+        product = await Http.GetFromJsonAsync<Product>($"api/Product/{id}");
+        //category = await Http.GetFromJsonAsync<Category>($"api/Category/{id}");
+
+    }
 
 
 
@@ -103,6 +112,7 @@ using BlazorApp1.Shared;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591
