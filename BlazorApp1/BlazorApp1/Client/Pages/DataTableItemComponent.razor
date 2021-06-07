@@ -1,5 +1,5 @@
 ﻿@inject NavigationManager UriHelper
-
+@inject HttpClient Http
 <tr>
     <td>@product.Id</td>
     <td>@product.name</td>
@@ -15,7 +15,7 @@
                 <button @onclick="() => EditProduct(product.Id)" class='btn btn-success btn-sm' type='button' data-toggle='tooltip' data-placement='top' title='Edit'>Edit</button>
             </li>
             <li class='list-inline-item'>
-                <button class='btn btn-danger btn-sm' type='button' data-toggle='tooltip' data-placement='top' title='Delete'>Delete</button>
+                <button @onclick="() => DeleteProduct(product.Id)" class='btn btn-danger btn-sm' type='button' data-toggle='tooltip' data-placement='top' title='Delete'>Delete</button>
             </li>
         </ul>
 
@@ -28,16 +28,28 @@
 
     [Parameter]
     public int id { get; set; }
+    [Parameter]
+    public EventCallback<int> updateList { get; set; }
 
 
     void EditProduct(int id)
     {
-        UriHelper.NavigateTo("/EditProduct/"+id);
+        UriHelper.NavigateTo("/EditProduct/" + id);
     }
 
     void ProductDetails(int id)
     {
-        UriHelper.NavigateTo("/Product/" + id);
+        UriHelper.NavigateTo("/VendorProduct/" + id);
+    }
+
+
+
+
+    protected async Task DeleteProduct(int id)
+    {
+
+        await Http.DeleteAsync("api/Product/delete/" + id);
+        //await updateList.InvokeAsync(id);
     }
 
 }

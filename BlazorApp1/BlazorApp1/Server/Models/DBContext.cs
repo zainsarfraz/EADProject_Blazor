@@ -12,7 +12,7 @@ namespace BlazorApp1.Server.Models
         public DbSet<Product> Product { get; set; }
         public DbSet<Category> Category { get; set; }
         public DbSet<Shop> Shop { get; set; }
-        
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
@@ -23,8 +23,8 @@ namespace BlazorApp1.Server.Models
         {
 
             var products = this.Product
-                .Include(p=>p.Shop)
-                .Include(p=>p.Shop.Vendor)
+                .Include(p => p.Shop)
+                .Include(p => p.Shop.Vendor)
                 .ToList();
 
             return products;
@@ -34,8 +34,8 @@ namespace BlazorApp1.Server.Models
         {
             var product = this.Product
                .Where(p => p.Id == id)
-               .Include(p=>p.Shop)
-               .Include(p=>p.Shop.Vendor)
+               .Include(p => p.Shop)
+               .Include(p => p.Shop.Vendor)
                .FirstOrDefault<Product>();
 
             return product;
@@ -66,18 +66,18 @@ namespace BlazorApp1.Server.Models
 
             var categories = this.Category
                 .Include(c => c.product)
-                .Include(c=>c.product.Shop)
-                .Include(c=>c.product.Shop.Vendor)
+                .Include(c => c.product.Shop)
+                .Include(c => c.product.Shop.Vendor)
                 .ToList();
 
             return categories;
         }
-        public Category getCategoryByProductId(int id)
+        public List<Category> getCategoryByProductId(int id)
         {
             var category = this.Category
                 .Where(c => c.product.Id == id)
                 .Include(c => c.product)
-                .FirstOrDefault<Category>();
+                .ToList();
 
             return category;
         }
@@ -88,10 +88,21 @@ namespace BlazorApp1.Server.Models
             var products = this.Product
                 .Include(p => p.Shop)
                 .Include(p => p.Shop.Vendor)
-                .Where(p=>p.Shop.Vendor.Id == id)
+                .Where(p => p.Shop.Vendor.Id == id)
                 .ToList();
 
             return products;
+        }
+
+        public void deleteProductById(int id)
+        {
+
+            var product = new Product { Id = id };
+            this.Category.RemoveRange(this.Category.Where(x => x.product == product));
+            this.SaveChanges();
+            this.Product.Attach(product);
+            this.Product.Remove(product);
+            this.SaveChanges();
         }
     }
 }

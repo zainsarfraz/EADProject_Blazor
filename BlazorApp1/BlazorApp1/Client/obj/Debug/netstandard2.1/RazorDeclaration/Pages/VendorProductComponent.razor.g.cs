@@ -82,7 +82,9 @@ using BlazorApp1.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class DataTableItemComponent : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.LayoutAttribute(typeof(VendorLayout))]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/VendorProduct/{id:int}")]
+    public partial class VendorProductComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,43 +92,28 @@ using BlazorApp1.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 25 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\DataTableItemComponent.razor"
+#line 75 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\VendorProductComponent.razor"
        
     [Parameter]
-    public Product product { get; set; }
-
-    [Parameter]
     public int id { get; set; }
-    [Parameter]
-    public EventCallback<int> updateList { get; set; }
 
+    public Product product = new Product();
+    public List<Category> categories = new List<Category>();
 
-    void EditProduct(int id)
+    protected override async Task OnInitializedAsync()
     {
-        UriHelper.NavigateTo("/EditProduct/" + id);
-    }
+        product = await Http.GetFromJsonAsync<Product>($"api/Product/{id}");
+        categories = await Http.GetFromJsonAsync<List<Category>>($"api/Category/{id}");
 
-    void ProductDetails(int id)
-    {
-        UriHelper.NavigateTo("/VendorProduct/" + id);
     }
 
 
-
-
-    protected async Task DeleteProduct(int id)
-    {
-
-        await Http.DeleteAsync("api/Product/delete/" + id);
-        //await updateList.InvokeAsync(id);
-    }
 
 
 #line default
 #line hidden
 #nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager UriHelper { get; set; }
     }
 }
 #pragma warning restore 1591

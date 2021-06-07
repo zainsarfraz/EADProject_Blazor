@@ -98,9 +98,11 @@ using BlazorApp1.Shared;
 
     protected override async Task OnInitializedAsync()
     {
-        products = await Http.GetFromJsonAsync<List<Product>>("api/Product/VendorId/3");
+        products = await Http.GetFromJsonAsync<List<Product>>("api/Product/VendorId/1");
 
     }
+
+   
 
     void AddProduct()
     {

@@ -15,3 +15,4 @@ F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehm
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Shared\obj\Debug\netstandard2.1\BlazorApp1.Shared.csproj.CoreCompileInputs.cache
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Shared\obj\Debug\netstandard2.1\BlazorApp1.Shared.dll
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Shared\obj\Debug\netstandard2.1\BlazorApp1.Shared.pdb
+F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Shared\obj\Debug\netstandard2.1\BlazorApp1.Shared.csprojAssemblyReference.cache

@@ -91,18 +91,18 @@ using BlazorApp1.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 64 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\ProductDetailComponent.razor"
+#line 75 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\ProductDetailComponent.razor"
        
     [Parameter]
     public int id { get; set; }
 
     public Product product = new Product();
-    public Category category = new Category();
+    public List<Category> categories = new List<Category>();
 
     protected override async Task OnInitializedAsync()
     {
         product = await Http.GetFromJsonAsync<Product>($"api/Product/{id}");
-        //category = await Http.GetFromJsonAsync<Category>($"api/Category/{id}");
+        categories = await Http.GetFromJsonAsync<List<Category>>($"api/Category/{id}");
 
     }
 

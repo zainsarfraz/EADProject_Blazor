@@ -35,6 +35,11 @@ namespace BlazorApp1.Server.Controllers
         {
             return db.GetProductsByVendorId(id);
         }
-
+        [HttpDelete]
+        [Route("delete/{id}")]
+        public void DeleteProduct(int id)
+        {
+            db.deleteProductById(id);
+        }
     }
 }

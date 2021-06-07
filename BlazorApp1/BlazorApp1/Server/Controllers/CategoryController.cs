@@ -25,7 +25,7 @@ namespace BlazorApp1.Server.Controllers
         }
 
         [HttpGet("{id}")]
-        public Category GetByProductId(int id)
+        public List<Category> GetByProductId(int id)
         {
             return db.getCategoryByProductId(id);
         }

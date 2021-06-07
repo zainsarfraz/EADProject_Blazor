@@ -20,7 +20,7 @@
 
         @foreach (Product product in products)
         {
-            <DataTableItemComponent product="product"></DataTableItemComponent>
+            <DataTableItemComponent product="product" ></DataTableItemComponent>
         }
 
 
@@ -45,9 +45,11 @@
 
     protected override async Task OnInitializedAsync()
     {
-        products = await Http.GetFromJsonAsync<List<Product>>("api/Product/VendorId/3");
+        products = await Http.GetFromJsonAsync<List<Product>>("api/Product/VendorId/1");
 
     }
+
+   
 
     void AddProduct()
     {
