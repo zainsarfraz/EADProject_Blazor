@@ -23,6 +23,11 @@ namespace BlazorApp1.Server.Controllers
         {
             return db.GetShops();
         }
+        [HttpPost]
+        public void addShop(Shop s)
+        {
+            db.addShop(s);
+        }
 
         [HttpGet("{id}")]
         public Shop GetById(int id)

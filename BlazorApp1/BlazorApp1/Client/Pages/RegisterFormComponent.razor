@@ -1,32 +1,62 @@
-﻿
+﻿@inject HttpClient Http
+@inject NavigationManager UriHelper
+
+
 <form class="form-signin">
 
     <label for="inputName" class="sr-only">Name</label>
-    <input type="text" id="inputName" class="form-control" placeholder="Name*" required autofocus>
+    <input type="text" id="inputName" @bind="@username" class="form-control" placeholder="Name*" required autofocus>
     <br />
     <label for="inputEmail" class="sr-only">Email address</label>
-    <input type="email" id="inputEmail" class="form-control" placeholder="Email address*" required autofocus>
+    <input type="email" id="inputEmail" @bind="@useremail" class="form-control" placeholder="Email address*" required autofocus>
     <br />
     <label for="inputPhone" class="sr-only">Phone Number</label>
-    <input type="number" id="inputPhone" class="form-control" placeholder="Phone Number*" required autofocus>
+    <input type="number" id="inputPhone" @bind="@usercontact" class="form-control" placeholder="Phone Number*" required autofocus>
     <br />
     <label for="inputPassword" class="sr-only">Password</label>
 
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password*" required>
+    <input type="password" id="inputPassword" @bind="@userpassword" class="form-control" placeholder="Password*" required>
     <br />
-    <label for="inputAddress" class="sr-only">Address</label>
-    <input type="text" id="inputAddress" class="form-control" placeholder="Address*" required autofocus>
-    <br />
+
     <label for="inputShop" class="sr-only">Shop Name</label>
-    <input type="text" id="inputShop" class="form-control" placeholder="Shop Name*" required autofocus>
+    <input type="text" id="inputShop" @bind="@shopname" class="form-control" placeholder="Shop Name*" required autofocus>
     <br />
     <label for="inputDes" class="sr-only">Shop Description</label>
-    <input type="text" id="inputDes" class="form-control" placeholder="Shop Description*" required autofocus>
+    <input type="text" id="inputDes" @bind="@shopdetails" class="form-control" placeholder="Shop Address*" required autofocus>
     <br />
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+    <button @onclick="signUp" class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
 
 </form>
 
 @code {
+
+    public string username;
+    public string useremail;
+    public string usercontact;
+    public string userpassword;
+    public string shopname;
+    public string shopdetails;
+
+    public async Task vendorAdd(Vendor v)
+    {
+        await Http.PostAsJsonAsync("api/Vendor", v);
+    }
+    public async Task shopAdd(Shop s)
+    {
+        await Http.PostAsJsonAsync("api/Shop", s);
+    }
+
+    private void signUp()
+    {
+        var user = new Vendor { name = username, contact = usercontact, email = useremail, password = userpassword };
+        var shop = new Shop { name = shopname, details = shopdetails, vendor = user };
+
+        vendorAdd(user);
+        shopAdd(shop);
+
+
+        //await sessionStorage.SetItemAsync("email", user.email);
+        UriHelper.NavigateTo("/Dashboard");
+    }
 
 }

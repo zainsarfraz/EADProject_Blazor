@@ -89,6 +89,45 @@ using BlazorApp1.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 31 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\RegisterFormComponent.razor"
+       
+
+    public string username;
+    public string useremail;
+    public string usercontact;
+    public string userpassword;
+    public string shopname;
+    public string shopdetails;
+
+    public async Task vendorAdd(Vendor v)
+    {
+        await Http.PostAsJsonAsync("api/Vendor", v);
+    }
+    public async Task shopAdd(Shop s)
+    {
+        await Http.PostAsJsonAsync("api/Shop", s);
+    }
+
+    private void signUp()
+    {
+        var user = new Vendor { name = username, contact = usercontact, email = useremail, password = userpassword };
+        var shop = new Shop { name = shopname, details = shopdetails, vendor = user };
+
+        vendorAdd(user);
+        shopAdd(shop);
+
+
+        //await sessionStorage.SetItemAsync("email", user.email);
+        UriHelper.NavigateTo("/Dashboard");
+    }
+
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager UriHelper { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

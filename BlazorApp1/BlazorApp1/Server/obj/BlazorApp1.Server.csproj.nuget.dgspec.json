@@ -44,6 +44,10 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
+            "Blazored.SessionStorage": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[3.2.1, )"
@@ -139,6 +143,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Blazored.SessionStorage": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
               "version": "[3.2.1, )"
@@ -216,6 +224,10 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
+            "Blazored.SessionStorage": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[2.1.3, )"

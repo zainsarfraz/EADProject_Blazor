@@ -486,3 +486,6 @@ F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehm
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\obj\Debug\netcoreapp3.1\BlazorApp1.Server.dll
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\obj\Debug\netcoreapp3.1\BlazorApp1.Server.pdb
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\obj\Debug\netcoreapp3.1\BlazorApp1.Server.genruntimeconfig.cache
+F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\bin\Debug\netcoreapp3.1\Blazored.SessionStorage.dll
+F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\bin\Debug\netcoreapp3.1\Bunit.Core.dll
+F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Authorization.dll

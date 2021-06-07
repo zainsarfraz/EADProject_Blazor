@@ -89,6 +89,30 @@ using BlazorApp1.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 21 "F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\LoginFormComponent.razor"
+       
+
+    public string email;
+    public string password;
+    public Vendor vendor = new Vendor();
+
+    protected async Task checkLogin()
+    {
+        vendor = await Http.GetFromJsonAsync<Vendor>($"api/Vendor/email/{email}");
+    }
+
+    public void login()
+    {
+        var vendor = new Vendor { email = email, password = password };
+
+
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

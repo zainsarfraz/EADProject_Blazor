@@ -104,5 +104,36 @@ namespace BlazorApp1.Server.Models
             this.Product.Remove(product);
             this.SaveChanges();
         }
+
+        public void addShop(Shop s)
+        {
+            this.Shop.Add(s);
+            this.SaveChanges();
+        }
+
+        public void addVendor(Vendor vender)
+        {
+       
+                this.Vendor.Add(vender);
+                this.SaveChanges();
+                
+        }
+
+        public List<Vendor> getVendors()
+        {
+            var vendors = this.Vendor
+                .ToList();
+
+            return vendors;
+        }
+
+        public Vendor getVendorByEmail(string email)
+        {
+            var vendor = this.Vendor
+                .Where(v => v.email == email)
+                .FirstOrDefault<Vendor>();
+
+            return vendor;
+        }
     }
 }

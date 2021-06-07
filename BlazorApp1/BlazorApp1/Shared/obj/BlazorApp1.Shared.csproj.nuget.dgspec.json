@@ -40,6 +40,10 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
+            "Blazored.SessionStorage": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[2.1.3, )"
