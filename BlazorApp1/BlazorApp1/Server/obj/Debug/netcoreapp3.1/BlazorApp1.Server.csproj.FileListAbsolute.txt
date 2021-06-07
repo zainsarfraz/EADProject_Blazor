@@ -489,3 +489,6 @@ F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehm
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\bin\Debug\netcoreapp3.1\Blazored.SessionStorage.dll
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\bin\Debug\netcoreapp3.1\Bunit.Core.dll
 F:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\bin\Debug\netcoreapp3.1\Blazored.SessionStorage.dll
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\bin\Debug\netcoreapp3.1\Bunit.Core.dll
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Authorization.dll
