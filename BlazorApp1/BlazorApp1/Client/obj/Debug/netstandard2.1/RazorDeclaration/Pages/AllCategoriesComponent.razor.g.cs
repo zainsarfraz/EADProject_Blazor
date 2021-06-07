@@ -82,25 +82,14 @@ using BlazorApp1.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/ShopDetail/{id:int}")]
-    public partial class ShopDetailComponent : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/Categories")]
+    public partial class AllCategoriesComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 15 "C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\ShopDetailComponent.razor"
-       
-    [Parameter]
-    public int id { get; set; }
-
-    public List<Product> products = new List<Product>();
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591

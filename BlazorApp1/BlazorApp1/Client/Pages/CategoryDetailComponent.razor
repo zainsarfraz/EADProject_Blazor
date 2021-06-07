@@ -1,10 +1,7 @@
-﻿@page "/ShopDetail/{id:int}"
+﻿@page "/CategoryDetail/{id:int}"
 
-Shop @id
+Category # @id
 
-<h3>Shop Name</h3>
-<p><b>Shop Number</b> </p>
-<p>Shop Address</p>
 <div class="row">
     @foreach (var pro in products)
     {
@@ -12,9 +9,14 @@ Shop @id
     }
 </div>
 
+
+
+<h3>Category Name</h3>
+
 @code {
     [Parameter]
     public int id { get; set; }
+
 
     public List<Product> products = new List<Product>();
 }

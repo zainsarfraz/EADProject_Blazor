@@ -1043,6 +1043,12 @@ C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\0kqvqvVNCEmCVsFj2JkkXdhoiiOFm3GB-uUFdxc1Wgw=.hash
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\ShopDetailComponent.razor.g.cs
 C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\ShopDetailComponent.razor.g.cs
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\Z1-5-xuKBgJzd8nIQ0x56e0UMTIQ8g8-zq11Fv1lhhI=.hash
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\XrQClzxY-rHj2F40Rn5EUm5O2gfMJiMBdnnqCnYgMus=.hash
-C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\CAGviT6RjmzgvL6_28ofJ8gb5nLNVqPMYlbMGXDa7GM=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\AllCategoriesComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\AllCategoriesComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\CategoryComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\CategoryComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\CategoryDetailComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\Razor\Pages\CategoryDetailComponent.razor.g.cs
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\ZzN-ezczSkzxDhBwfeCCQcUiyZYWkt4SUuheJ8tbsHk=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\dxaHeLDyWOTAJGM08oPfnLSbX0f0LspsYeHF00HGpro=.hash
+C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\obj\Debug\netstandard2.1\integrity\xytJVt_IgPEddHtX4FtnZ7eL4u79D-ctjylyh6UqSBY=.hash
