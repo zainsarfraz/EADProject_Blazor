@@ -1,0 +1,19 @@
+﻿@page "/ShopDetail/{id:int}"
+
+Shop @id
+
+<h3>Shop Name</h3>
+<p><b>Shop Number</b> </p>
+<p>Shop Address</p>
+
+@foreach(var pro in products)
+            {
+                <ProductComponent></ProductComponent>
+            }
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    public List<Product> products = new List<Product>();
+}

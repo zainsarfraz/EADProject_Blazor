@@ -82,7 +82,8 @@ using BlazorApp1.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class ShopComponent : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/ShopDetail/{id:int}")]
+    public partial class ShopDetailComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,21 +91,16 @@ using BlazorApp1.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 14 "C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\ShopComponent.razor"
+#line 14 "C:\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\Pages\ShopDetailComponent.razor"
        
-
     [Parameter]
-    public Shop shop { get; set; }
+    public int id { get; set; }
 
-    void ShopDetails(int id)
-    {
-        UriHelper.NavigateTo("/ShopDetail/"+id);
-    }
+    public List<Product> products = new List<Product>();
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager UriHelper { get; set; }
     }
 }
 #pragma warning restore 1591

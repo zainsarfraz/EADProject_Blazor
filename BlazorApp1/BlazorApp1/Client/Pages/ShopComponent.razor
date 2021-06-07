@@ -13,10 +13,11 @@
 
 @code {
 
+    [Parameter]
     public Shop shop { get; set; }
 
     void ShopDetails(int id)
     {
-        UriHelper.NavigateTo("/Shop/" + id);
+        UriHelper.NavigateTo("/ShopDetail/"+id);
     }
 }
