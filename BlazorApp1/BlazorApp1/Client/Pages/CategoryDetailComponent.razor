@@ -1,0 +1,22 @@
+﻿@page "/CategoryDetail/{id:int}"
+
+Category # @id
+
+<div class="row">
+    @foreach (var pro in products)
+    {
+        <ProductComponent></ProductComponent>
+    }
+</div>
+
+
+
+<h3>Category Name</h3>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+
+    public List<Product> products = new List<Product>();
+}

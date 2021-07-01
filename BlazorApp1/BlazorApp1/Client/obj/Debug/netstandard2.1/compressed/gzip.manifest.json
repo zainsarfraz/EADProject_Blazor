@@ -1,8 +1,13 @@
 {
   "FilesToCompress": [
     {
+<<<<<<< HEAD
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\C018FOFOSyihLuA2UCMJ1cWEt7l6us6VtaGOwr8ZRd4=.hash",
       "Source": "F:\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorApp1.Client.dll",
+=======
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\q7T0egkknBmNk7QVUgaNAEbLDBiwcjQa6rZxiKr4VaE=.hash",
+      "Source": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorApp1.Client.dll",
+>>>>>>> 66acaecd2e09d1b9a2667bc2926c639d76d5572d
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorApp1.Client.dll.gz"
     },
     {
@@ -191,8 +196,13 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
     },
     {
+<<<<<<< HEAD
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\epMxKig04fj-gR7jU59YVpCEM6eRXEjsJWRn6Ggd9Ao=.hash",
       "Source": "F:\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorApp1.Shared.dll",
+=======
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\8syPc5uaJGh-AeYx_BhG6nJs1whyaRCaej6PA2i0fU0=.hash",
+      "Source": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorApp1.Shared.dll",
+>>>>>>> 66acaecd2e09d1b9a2667bc2926c639d76d5572d
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorApp1.Shared.dll.gz"
     },
     {
@@ -326,6 +336,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
+<<<<<<< HEAD
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\KuSoq0OTucuHQyLK8IwAbMKaXL8MGhpd6I7_iu2X2S0=.hash",
       "Source": "F:\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorApp1.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorApp1.Client.pdb.gz"
@@ -333,6 +344,15 @@
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6eAuUJEl3TjVMScKKctZk9bMyvFl5JpPevjj7kOdnvw=.hash",
       "Source": "F:\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorApp1.Shared.pdb",
+=======
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\YR7oqW54NlQ1U4a7OGACxPQ67jAYesJFsazCo1ECZFw=.hash",
+      "Source": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorApp1.Client.pdb",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorApp1.Client.pdb.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\WjAfMLIkoua_4OoWjBh6NYL2I4l32RsIVnHmWuB4NoI=.hash",
+      "Source": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorApp1.Shared.pdb",
+>>>>>>> 66acaecd2e09d1b9a2667bc2926c639d76d5572d
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorApp1.Shared.pdb.gz"
     },
     {
@@ -356,8 +376,13 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
+<<<<<<< HEAD
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FyLPQQZ-Ubh9wXyR92ni35wwnPjDT4LLXNx4goW7614=.hash",
       "Source": "F:\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
+=======
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\CTYFUR95VnIQcIFhpQrjyYhW0xFV1KfWd3QsAhhk7TY=.hash",
+      "Source": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
+>>>>>>> 66acaecd2e09d1b9a2667bc2926c639d76d5572d
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }
   ]

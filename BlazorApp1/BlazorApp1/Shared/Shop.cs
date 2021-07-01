@@ -11,7 +11,7 @@ namespace BlazorApp1.Shared
         {
             this.vendor = new Vendor();
         }
-        public Shop(int id,string name,string details,Vendor v)
+        public Shop(int id,string name,string details, Vendor v)
         {
             this.Id = id;
             this.name = name;

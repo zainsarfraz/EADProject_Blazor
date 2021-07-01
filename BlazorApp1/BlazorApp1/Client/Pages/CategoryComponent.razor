@@ -1,0 +1,22 @@
+﻿
+@inject NavigationManager UriHelper
+
+<div class="card" style="width: 18rem; margin:15px;">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Category Name</h5>
+
+        <button @onclick="() => CategoryDetails(category.Id)" class="btn btn-primary">View Products</button>
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public Category category { get; set; }
+
+    void CategoryDetails(int id)
+    {
+        UriHelper.NavigateTo("/CategoryDetail/"+id);
+    }
+}

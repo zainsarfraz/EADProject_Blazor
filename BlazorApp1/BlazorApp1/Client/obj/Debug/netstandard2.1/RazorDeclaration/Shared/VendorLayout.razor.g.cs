@@ -94,7 +94,7 @@ using BlazorApp1.Shared;
  
     void Navigate()
     {
-        UriHelper.NavigateTo("Logout");
+        UriHelper.NavigateTo("Login");
     }
 
 #line default
