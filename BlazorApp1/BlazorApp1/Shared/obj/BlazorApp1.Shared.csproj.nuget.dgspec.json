@@ -1,32 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {}
+    "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {}
   },
   "projects": {
-    "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
+    "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
+        "projectUniqueName": "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
         "projectName": "BlazorApp1.Shared",
-        "projectPath": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
+        "projectPath": "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
         "packagesPath": "C:\\Users\\Zain\\.nuget\\packages\\",
-        "outputPath": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\obj\\",
+        "outputPath": "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zain\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Zain\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +35,6 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Blazored.SessionStorage": {
               "target": "Package",
@@ -74,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

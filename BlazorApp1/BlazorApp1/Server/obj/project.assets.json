@@ -2700,32 +2700,29 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Server\\BlazorApp1.Server.csproj",
+      "projectUniqueName": "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Server\\BlazorApp1.Server.csproj",
       "projectName": "BlazorApp1.Server",
-      "projectPath": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Server\\BlazorApp1.Server.csproj",
+      "projectPath": "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Server\\BlazorApp1.Server.csproj",
       "packagesPath": "C:\\Users\\Zain\\.nuget\\packages\\",
-      "outputPath": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Server\\obj\\",
+      "outputPath": "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Zain\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Zain\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj": {
-              "projectPath": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj"
+            "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj": {
+              "projectPath": "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj"
             },
-            "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
-              "projectPath": "F:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj"
+            "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
+              "projectPath": "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj"
             }
           }
         }
@@ -2738,7 +2735,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Blazored.SessionStorage": {
             "target": "Package",
@@ -2781,7 +2777,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
       }
     }
   }
