@@ -1,4 +1,9 @@
 ﻿<StaticWebAssets Version="1.0">
+<<<<<<< HEAD
   <ContentRoot BasePath="/" Path="E:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\wwwroot\" />
   <ContentRoot BasePath="/" Path="E:\Study -_-\6th Semester\Enterprise Application Developement - Dr Shuja ul Rehman\Project\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\bin\Debug\netstandard2.1\wwwroot\" />
+=======
+  <ContentRoot BasePath="/" Path="F:\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="/" Path="F:\EADProject_Blazor\BlazorApp1\BlazorApp1\Client\wwwroot\" />
+>>>>>>> 3fd50291eba5be7d6cd6dfb50c890e9d55af35c2
 </StaticWebAssets>

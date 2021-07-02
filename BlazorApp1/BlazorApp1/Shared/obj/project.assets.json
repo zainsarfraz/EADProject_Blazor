@@ -7771,11 +7771,12 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Zain\\.nuget\\packages\\": {}
+    "C:\\Users\\Nouman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
       "projectName": "BlazorApp1.Shared",
       "projectPath": "E:\\Study -_-\\6th Semester\\Enterprise Application Developement - Dr Shuja ul Rehman\\Project\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
@@ -7784,6 +7785,17 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zain\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "F:\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
+      "projectName": "BlazorApp1.Shared",
+      "projectPath": "F:\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
+      "packagesPath": "C:\\Users\\Nouman\\.nuget\\packages\\",
+      "outputPath": "F:\\EADProject_Blazor\\BlazorApp1\\BlazorApp1\\Shared\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Nouman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 3fd50291eba5be7d6cd6dfb50c890e9d55af35c2
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
